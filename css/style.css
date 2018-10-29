@@ -1,0 +1,131 @@
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-width: 1260px;
+}
+
+.header {
+	background-image: url(../res/header_bg.jpg);
+}
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 90px;
+	margin: 0 200px 0 200px;
+	color:white;
+	border-bottom: solid rgba(255, 255, 255, 0.3) 1px;
+}
+
+.menu {
+	display: flex;
+}
+
+.logo {
+	margin: auto 0;
+}
+
+.menu_point {
+	display: flex;
+	height: 100%;
+	margin: auto 0 auto 68px;
+}
+ 
+.menu_point:first-child {
+	margin-left:0px;
+}
+
+.menu_point:hover {
+	border-bottom: solid white 1px;
+}
+
+.menu_point a {
+	margin: auto;
+	font-size: 16px;
+	font-family: "Lato-Medium";
+	text-decoration: none;
+	color: white;
+}
+
+.header_text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 855px;
+	color:white;
+}
+
+.header_text h1 {
+	font-family: "Lato-Bold";
+	font-size: 72px;
+	margin: 0 0 10px 0;
+}
+
+.header_text p {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: italic;
+	font-size: 32px;
+	margin: 5px 0 5px 0;
+}
+
+.header_text p:last-child{
+	padding-bottom: 10px;
+}
+
+.input {
+	display: flex;
+	justify-content: space-between;
+	height: 120px;
+}
+
+.login {
+	display: flex;
+	flex:50%;
+	background:linear-gradient(-70deg, transparent 40px, #21424a 0 );
+}
+
+.login a {
+	flex: 100%;
+	text-align: end;
+	padding-right: 270px;
+	padding-top: 50px;
+}
+
+.login:hover {
+	background:linear-gradient(-70deg, transparent 40px, #096d65 0 );
+}
+
+.register {
+	display: flex;
+	margin-left: -55px;
+	flex:50%;	
+	color: white;
+	background:linear-gradient(-250deg, transparent 50px, #2fac6c 0);
+	z-index: 2;
+}
+
+.register a {
+	flex: 100%;
+	text-align: start;
+	padding-left:240px;
+	padding-top: 50px;
+}
+
+.register:hover {
+	background:linear-gradient(-250deg, transparent 50px, #95b54c 0);
+}
+
+.input a {
+	font-family: "Lato-Medium";
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+}
+
+.input a:hover {
+	color: #000;
+	text-decoration: underline;
+}
