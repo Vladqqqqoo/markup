@@ -2,7 +2,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	min-width: 1260px;
+	min-width: 920px;
 }
 
 .header {
@@ -59,23 +59,23 @@
 }
 
 .header_text h1 {
+	margin: 0 0 10px 0;
 	font-family: "Lato-Bold";
 	font-size: 72px;
-	margin: 0 0 10px 0;
 }
 
 .header_text p {
+	margin: 5px 0 5px 0;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-style: italic;
 	font-size: 32px;
-	margin: 5px 0 5px 0;
 }
 
 .header_text p:last-child{
 	padding-bottom: 10px;
 }
 
-.input {
+.member {
 	display: flex;
 	justify-content: space-between;
 	height: 120px;
@@ -89,9 +89,9 @@
 
 .login a {
 	flex: 100%;
-	text-align: end;
 	padding-right: 270px;
 	padding-top: 50px;
+	text-align: end;
 }
 
 .login:hover {
@@ -99,12 +99,12 @@
 }
 
 .register {
+	z-index: 2;
 	display: flex;
-	margin-left: -55px;
 	flex:50%;	
+	margin-left: -55px;
 	color: white;
 	background:linear-gradient(-250deg, transparent 50px, #2fac6c 0);
-	z-index: 2;
 }
 
 .register a {
@@ -118,14 +118,153 @@
 	background:linear-gradient(-250deg, transparent 50px, #95b54c 0);
 }
 
-.input a {
+.member a {
 	font-family: "Lato-Medium";
-	font-size: 16px;
+	font-size: 20px;
 	color: white;
 	text-decoration: none;
 }
 
-.input a:hover {
-	color: #000;
+.member a:hover {
 	text-decoration: underline;
+	color: #000;
+}
+
+.domain {
+	display: flex;
+	flex-direction: column;
+	height: 588px;
+	background-image: url(../res/domain_bg.jpg);
+}
+
+.p_buyDomain {
+	margin: 90px auto 0 auto;
+	padding: 0;
+	font-family: "Lato-Heavy";
+	font-size: 24px;
+}
+
+.p_loremDomain {
+	margin: 30px auto 0 auto;
+	padding: 0;
+	font-family: "Montserrat-ExtraLight";
+	font-size: 16px;
+	color: #a2a2a2;
+}
+
+.input_domain {
+	display: flex;
+	justify-content: row;
+	height: 48px;
+	width: 888px;
+	margin: 50px auto 0 auto;
+	padding: 0;
+	font-family: "Lato-Semibold";
+	font-size: 15px;
+	color:  #cbcbcb;
+	border: solid #d9d9d9 1px;
+}
+
+.input_domain span {
+	margin: auto 0;
+	padding: 0 15px;
+}
+
+.input_domain input[type="text"] {
+	display: block;
+	margin: 9px 0;
+	padding: 0 536px 0 15px;
+	height: 30px;
+	font-family: "Lato-Semibold";
+	font-size: 15px;
+	border: none;
+	border-left: solid 1px #d9d9d9;
+	border-right: solid 1px #d9d9d9;
+}
+
+.input_domain select {
+	margin-top: 1px;
+	padding: 0 13px;
+	font-family: "Lato-Semibold";
+	font-size: 15px;
+	color:#cbcbcb;
+	border: none;
+}
+
+table {
+	width: 887px;
+	height: 192px;
+	margin: 40px auto 90px auto;
+	color: #cbcbcb;
+	border: #d9d9d9 solid 1px;
+ }
+ 
+td {
+	position: relative;
+	width: 100px;
+	font-size: 14px;
+	font-family: "Lato-Regular";
+	vertical-align: middle;
+	text-align: center;
+	border-left: solid #d9d9d9 1px;
+	border-top: solid #d9d9d9 1px;
+ }
+
+ .bottom td::after {
+	position: absolute;
+	right: -8px;
+	top:-7px;
+	z-index: 1;
+	width: 12px;
+	height: 12px;
+	content: "";
+	background-color: white; 
+}
+
+td:last-child::after{
+	position: absolute;
+	right: 0;
+	top: -8px;
+	width: 26px;
+}
+
+.top td {
+	border-top: 0;
+}
+
+.top td::before {
+	position: absolute;
+	left: -8px;
+	top:0px;
+	z-index: 1;
+	width: 12px;
+	height: 16px;
+	content: "";
+	background-color: white;
+}
+
+.top td:first-child::before{
+	left: 0;
+	top:95px;
+	width: 26px;
+	background-color:white;
+}
+
+.bottom td::before {
+	position: absolute;
+	bottom: 0px;
+	left: -8px;
+	z-index: 1;
+	width: 12px;
+	height: 16px;
+	content: "";
+	background-color: white;
+}
+
+.bottom td:first-child::before{
+	content: none;
+}
+
+td:first-child {
+	border-left: 0;
 }

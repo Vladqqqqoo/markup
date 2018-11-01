@@ -8,3 +8,22 @@
 	src: url("../fonts/Lato-Bold.ttf") format("truetype");
 }
 
+@font-face {
+	font-family: "Lato-Regular";
+	src: url("../fonts/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Lato-Heavy";
+	src: url("../fonts/Lato-Heavy.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Montserrat-ExtraLight";
+	src: url("../fonts/Montserrat-ExtraLight.otf") format("truetype");
+}
+
+@font-face {
+	font-family: "Lato-Semibold";
+	src: url("../fonts/Lato-Semibold.ttf") format("truetype");
+}
