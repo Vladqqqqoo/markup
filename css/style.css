@@ -13,8 +13,8 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	height: 90px;
-	margin: 0 200px 0 200px;
+	height: 81px;
+	margin: 0 194px;
 	color:white;
 	border-bottom: solid rgba(255, 255, 255, 0.3) 1px;
 }
@@ -24,7 +24,7 @@
 }
 
 .logo {
-	margin: auto 0;
+	margin: auto 2px;
 }
 
 .menu_point {
@@ -59,13 +59,13 @@
 }
 
 .header_text h1 {
-	margin: 0 0 10px 0;
+	margin: 0px 0 12px 0;
 	font-family: "Lato-Bold";
-	font-size: 72px;
+	font-size: 67px;
 }
 
 .header_text p {
-	margin: 5px 0 5px 0;
+	margin: 5px 0 7px 2px;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-style: italic;
 	font-size: 32px;
@@ -84,18 +84,18 @@
 .login {
 	display: flex;
 	flex:50%;
-	background:linear-gradient(-70deg, transparent 40px, #21424a 0 );
+	background: linear-gradient(-78deg, transparent 43px, #21424a 0 );
 }
 
 .login a {
 	flex: 100%;
-	padding-right: 270px;
-	padding-top: 50px;
+	padding-right: 290px;
+	padding-top: 46px;
 	text-align: end;
 }
 
 .login:hover {
-	background:linear-gradient(-70deg, transparent 40px, #096d65 0 );
+	background:linear-gradient(-78deg, transparent 43px, #096d65 0 );
 }
 
 .register {
@@ -104,23 +104,22 @@
 	flex:50%;	
 	margin-left: -55px;
 	color: white;
-	background:linear-gradient(-250deg, transparent 50px, #2fac6c 0);
+	    background: linear-gradient(-258deg, transparent 34px, #2fac6c 0);
 }
 
 .register a {
 	flex: 100%;
 	text-align: start;
-	padding-left:240px;
-	padding-top: 50px;
+	padding: 46px 0 0 278px;
 }
 
 .register:hover {
-	background:linear-gradient(-250deg, transparent 50px, #95b54c 0);
+	background:linear-gradient(-258deg, transparent 34px, #95b54c 0);
 }
 
 .member a {
 	font-family: "Lato-Medium";
-	font-size: 20px;
+	font-size: 22px;
 	color: white;
 	text-decoration: none;
 }
@@ -138,14 +137,14 @@
 }
 
 .p_buyDomain {
-	margin: 90px auto 0 auto;
+	margin: 85px auto 0 auto;
 	padding: 0;
 	font-family: "Lato-Heavy";
 	font-size: 24px;
 }
 
 .p_loremDomain {
-	margin: 30px auto 0 auto;
+	margin: 22px auto 0 auto;
 	padding: 0;
 	font-family: "Montserrat-ExtraLight";
 	font-size: 16px;
@@ -154,10 +153,9 @@
 
 .input_domain {
 	display: flex;
-	justify-content: row;
 	height: 48px;
 	width: 888px;
-	margin: 50px auto 0 auto;
+	margin: 47px auto 0 auto;
 	padding: 0;
 	font-family: "Lato-Semibold";
 	font-size: 15px;
@@ -193,8 +191,8 @@
 
 table {
 	width: 887px;
-	height: 192px;
-	margin: 40px auto 90px auto;
+	height: 194px;
+	margin: 41px auto 90px auto;
 	color: #cbcbcb;
 	border: #d9d9d9 solid 1px;
  }
@@ -239,8 +237,8 @@ td:last-child::after{
 	z-index: 1;
 	width: 12px;
 	height: 16px;
-	content: "";
-	background-color: white;
+	content: ""; 
+	background-color: white; 
 }
 
 .top td:first-child::before{
@@ -258,7 +256,7 @@ td:last-child::after{
 	width: 12px;
 	height: 16px;
 	content: "";
-	background-color: white;
+	background-color: white; 
 }
 
 .bottom td:first-child::before{
