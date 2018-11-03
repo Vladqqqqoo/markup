@@ -475,3 +475,90 @@ td:first-child {
 	color: #1abc9c;
 }
 
+.about_us {
+	display: flex;
+	justify-content: center;
+	min-height: 400px;
+	margin: 0 200px;
+	border-top: dashed #d8d8d8 2px;
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+	margin: auto 0;
+	width: 520px;
+	border-right: dashed #d8d8d8 2px;
+}
+
+.about h1 {
+	margin: 0;
+	font-family: "Lato-Bold";
+	font-size: 35px;
+}
+
+.about p {
+	margin: 0;
+	margin-top:17px;
+	padding: 0;
+	font-family: "Lato-Thin";
+	font-size: 18px;
+	line-height: 1.5em;
+	color: #747474;
+}
+
+.our_team {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 680px;
+}
+
+.person {
+	display: flex;
+	flex-direction: column;
+	margin: auto 0;
+	margin-left: 83px;
+}
+
+.person:nth-child(2n){
+	margin-left: 89px;
+}
+
+
+.avatar {
+	width: 100px;
+	margin: 0 0 13px 0;
+	padding: 0 0 0 0;
+}
+
+.person_name {
+	margin: 0 auto 6px auto;
+	padding: 0 0 0 0;
+	font-family: "Lato-Semibold";
+	font-size: 17px;
+}
+
+.person_profession {
+	margin: 0 auto 10px auto;
+	padding: 0 0 0 0;
+	font-family: "Lato-Regular";
+	font-size: 15px;	
+}
+
+.about_icons {
+	margin: 0 auto 0 auto;
+	padding: 0 0 0 0;
+}
+
+.about_icons img {
+	margin-right: 18px;
+}
+
+.about_icons img:last-child {
+	margin-right: 0;
+}
+
+.person:last-child .avatar {
+	margin: 0 0 13px 10px;
+}
