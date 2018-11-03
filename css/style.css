@@ -1,3 +1,7 @@
+body {
+	margin: 0;
+}
+
 .flex-container {
 	display: flex;
 	flex-direction: column;
@@ -13,8 +17,8 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	height: 81px;
-	margin: 0 194px;
+	height: 90px;
+	margin: 0px 200px;
 	color:white;
 	border-bottom: solid rgba(255, 255, 255, 0.3) 1px;
 }
@@ -30,7 +34,7 @@
 .menu_point {
 	display: flex;
 	height: 100%;
-	margin: auto 0 auto 68px;
+	margin: auto 0 auto 69px;
 }
  
 .menu_point:first-child {
@@ -65,7 +69,7 @@
 }
 
 .header_text p {
-	margin: 5px 0 7px 2px;
+	margin: 3px 0 9px 0px;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-style: italic;
 	font-size: 32px;
@@ -89,8 +93,7 @@
 
 .login a {
 	flex: 100%;
-	padding-right: 290px;
-	padding-top: 46px;
+	padding: 45px 290px 0 0;
 	text-align: end;
 }
 
@@ -110,11 +113,11 @@
 .register a {
 	flex: 100%;
 	text-align: start;
-	padding: 46px 0 0 278px;
+	padding: 45px 0 0 278px;
 }
 
 .register:hover {
-	background:linear-gradient(-258deg, transparent 34px, #95b54c 0);
+	background:linear-gradient(-258deg, transparent 34px, #5bd395 0);
 }
 
 .member a {
@@ -132,19 +135,19 @@
 .domain {
 	display: flex;
 	flex-direction: column;
-	height: 588px;
+	height: 577px;
 	background-image: url(../res/domain_bg.jpg);
 }
 
 .p_buyDomain {
-	margin: 85px auto 0 auto;
+	margin: 83px auto 0 auto;
 	padding: 0;
 	font-family: "Lato-Heavy";
 	font-size: 24px;
 }
 
 .p_loremDomain {
-	margin: 22px auto 0 auto;
+	margin: 23px auto 0 auto;
 	padding: 0;
 	font-family: "Montserrat-ExtraLight";
 	font-size: 16px;
@@ -165,7 +168,7 @@
 
 .input_domain span {
 	margin: auto 0;
-	padding: 0 15px;
+	padding: 0 16px;
 }
 
 .input_domain input[type="text"] {
@@ -182,7 +185,7 @@
 
 .input_domain select {
 	margin-top: 1px;
-	padding: 0 13px;
+	padding: 0 9px;
 	font-family: "Lato-Semibold";
 	font-size: 15px;
 	color:#cbcbcb;
@@ -199,7 +202,7 @@ table {
  
 td {
 	position: relative;
-	width: 100px;
+	width: 220px;
 	font-size: 14px;
 	font-family: "Lato-Regular";
 	vertical-align: middle;
@@ -266,3 +269,209 @@ td:last-child::after{
 td:first-child {
 	border-left: 0;
 }
+
+.packages {
+	display: flex;
+	justify-content: center;
+	height: 662px;
+	padding: 101px 0 0 0;
+	background: url(../res/packages_bg.jpg) repeat-x;
+	background-color: white;
+}
+
+.basic, .normal, .big, .biggest {
+	width: 255px;
+	margin-right: 60px;
+	height: 560px;
+	background-color: white;
+	box-shadow: 0 0 7px rgba(0,0,0,0.5);
+}
+
+.packages .biggest{
+	margin-right: 0;
+}
+
+.basic {
+	border-top: solid #f9d423 5px;
+}
+
+.top_pack {
+	display: flex;
+	flex-direction: column;
+}
+
+.circular-chart {
+	display: block;
+	margin: 35px 0px 0 96px;
+	max-width: 22%;
+	max-height: 300px;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 3; /*Ширина кольца*/
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+
+.circular-chart.orange .circle {
+	stroke: #f9d423; /*цвет заполнения*/
+}
+
+.anchor {
+	background: url(../res/anchor.png) no-repeat;
+	background-position: center;
+	background-size: 20px;
+}
+
+.gray_star {
+	background: url(../res/gray_star.png) no-repeat;
+	background-position: center;
+	background-size: 20px;
+}
+
+.red_star {
+	background: url(../res/red_star.png) no-repeat;
+	background-position: center;
+	background-size: 20px;
+}
+
+.diamond {
+	background: url(../res/diamond.png) no-repeat;
+	background-position: center;
+	background-size: 20px
+}
+
+.gray {
+	stroke: #7f8c8d;
+}
+
+.red {
+	stroke: #f85f40;
+}
+
+.azure {
+	stroke: #1abc9c;
+}
+.top_pack h1 {
+	font-family: "Lato-Bold";
+	font-size: 16px;
+	margin: 15px auto 17px auto;
+}
+
+.middle_pack {
+	margin: 0 27px;
+	padding: 17px 0px;
+	border-top: solid #dfdfdf 1px;
+	border-bottom: solid #dfdfdf 1px;
+}
+
+.middle_pack div{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 19px;
+	font-family: "Lato-Light";
+	font-size: 16px;
+	color: #cdcdcd;
+}
+
+.middle_pack div:last-child{
+	margin: 0;
+}
+
+.middle_pack div span:nth-child(2n){
+	font-family: "Lato-Semibold";
+	font-size: 16px;
+	color:gold;
+}
+
+.bottom_pack {
+	display: flex;
+	flex-direction: column;
+}
+
+.price_domain {
+	display: flex;
+	justify-content: center;
+	width: 105px;
+	margin: 30px auto 0 auto;
+	border-bottom: solid gold 3px;
+}
+
+.icon_dollar {
+	margin-top: 5px;
+	font-family: "Lato-Heavy";
+	font-size: 17px;
+}
+
+.price_number {
+	font-family: "Lato-Bold";
+	font-size: 27px;
+}
+
+.price_period {
+	margin-top: 12px;
+	font-family: "Lato-Regular";
+	font-size: 13px;
+	color: #8d8d8d;
+}
+
+.select_plan {
+	margin: 19px auto 0 auto;
+	font-family: "Lato-Bold";
+	font-size: 15px;
+	color:black;
+	text-decoration: none;
+}
+
+.select_plan:hover {
+	color:gold;
+}
+
+.normal {
+	border-top: solid #7f8c8d 5px;
+}
+
+.normal .middle_pack div span:nth-child(2n){
+	color: #7f8c8d;
+}
+
+.normal .price_domain {
+	border-bottom: solid #7f8c8d 3px;
+}
+
+.normal .select_plan:hover {
+	color: #7f8c8d;
+}
+
+.big {
+	border-top: solid #f85f40 5px;
+}
+
+.big .middle_pack div span:nth-child(2n){
+	color: #f85f40;
+}
+
+.big .price_domain {
+	border-bottom: solid #f85f40 3px;
+}
+
+.big .select_plan:hover {
+	color: #f85f40;
+}
+
+.biggest {
+	border-top: solid #1abc9c 5px;
+}
+
+.biggest .middle_pack div span:nth-child(2n){
+	color: #1abc9c;
+}
+
+.biggest .price_domain {
+	border-bottom: solid #1abc9c 3px;
+}
+.biggest .select_plan:hover {
+	color: #1abc9c;
+}
+
